@@ -64,13 +64,15 @@ const equals = () => {
     break;
     case "subtraction": putResultInElement(subtract(firstNum, secondNum)) 
     break;
-    case "multiplication": multiply(firstNum, secondNum) 
+    case "multiplication": putResultInElement(multiply(firstNum, secondNum) )
     break;
-    case "division": console.log(divide(firstNum, secondNum)) 
+    case "division": console.log putResultInElement(divide(firstNum, secondNum)) 
     break;
-    case "modulus": console.log(modulus(firstNum, secondNum)) 
+    case "modulus": console.log putResultInElement(modulus(firstNum, secondNum)) 
     break;
     default: "Choose an operation"
   }
 }
+
+
 
